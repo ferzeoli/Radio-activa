@@ -6,8 +6,8 @@
   }
   
   body{
-    font-family: 'Oswald', sans-serif;
     /* font-weight: 800; */
+    background-color: #09163a;
   }
   
 .grillahome{
@@ -52,6 +52,7 @@
   
   .header__navbar--principal {
     text-decoration: none;
+    font-family: oswald!important;
     text-transform: uppercase;
     text-align: right;
     font-size: 1.3rem;
@@ -163,15 +164,17 @@
     grid-area: noticia03;
 }
 
-.titulo__seccion{
+.titulo__tarjeta{
   padding: 1rem;
   font-size: 1.5rem;
+  font-family: oswald;
   font-weight: bold;
   color: aliceblue;
 }
 
 .texto{
   padding: 0.3rem;
+  font-family: oswald;
   font-size: 1rem;
   font-weight: light;
   color: azure;
@@ -197,6 +200,7 @@
   .footer__menu {
   text-decoration: none;
   background-color: #09163a;
+  font-family: oswald;
   text-transform: uppercase;
   text-align: center;
   font-size: 1rem;
@@ -210,3 +214,53 @@
   font-size: 1rem;
   padding: 1.5rem;
   }
+
+
+  /*--------------------nosotros-------------*/
+
+  
+.card-deck{
+  background-color: #200522;
+  padding: 3rem;
+  display: flex;
+  text-align: center;
+}
+
+.card{
+  margin: 2rem;
+  background-color: lightblue;
+}
+
+.contenido{
+  background-color: #200522;
+}
+
+.titulo__seccion{
+  font-family: oswald;
+  text-align: center;  
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 3.5rem;
+}
+
+.texto__a{
+  text-align: center;
+  color: azure;
+  padding-bottom: 2rem;
+}
+
+/* --------------- nuevos programas ------------------ */
+
+.contenido-nuevos{
+  background-color: #200522;
+  padding: 3rem;
+  color: whitesmoke;
+}
+.form-control{
+  margin-bottom: 1rem;
+}
+.horarios{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

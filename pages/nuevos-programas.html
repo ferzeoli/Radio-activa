@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevos programas</title>    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <title>Nosotros</title>    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/estilos.css">
+
 </head>
 
 <body>
@@ -20,12 +22,89 @@
         
         <nav class="header__navbar">
           <ul class="header__navbar--principal">
-            <li><a href="../pages/nosotros.html">Nosotros</a></li>
-            <li><a href="../pages/programas.html">Programas</a></li>
-            <li><a href="../pages/recursos-humanos.html">Recursos humanos</a></li>
-            <li><a href="../pages/nuevos-programas.html">Traenos tus propuestas</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/programas.html">Programas</a></li>
+            <li><a href="./pages/recursos-humanos.html">Recursos humanos</a></li>
+            <li><a href="./pages/nuevos-programas.html">Traenos tus propuestas</a></li>
           </ul>
+      </nav>
+    </header>
+          
   
-        </nav>
-      </header>
+<div class="contenido-nuevos">
+      <h1 class="titulo__seccion">Propuestas</h1>
+
+      <h2 class="texto__a">¿Tenés ganas de hacer un programa? Contanos de qué se trata, siempre estamos buscando nuevas incorporaciones a nuestra grilla! </h2>
+
+      <div class="form-group">
+
+        <label for="nombre">Tu nombre</label>
+
+        <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="ingresa tu nombre" required>
+      
+        
+        <label for="email">Email</label>
+        
+        <input type="email" class="form-control" name="email" id="email" placeholder="ingresa tu correo" required>
+
+        <div class="horarios">
+        <label for="franja-horaria">Franja horaria:</label>
+        <br>
+        <input type="radio" Name=hora id="mañana" value="mañana"> Mañana
+        <input type="radio" name=hora id="tarde" value="tarde"> Tarde
+        <input type="radio" name=hora id="noche" value="noche"> Noche
+      </div>
+
+        <label for="info">Contanos algo sobre el programa (Cuántas personas son, de qué se trataría, etc...)</label>
+
+        <br>
+        <textarea name="consulta" class="form-control" id="consulta" cols="80" rows="8" required></textarea>
+      <br>
+
+        <input type="submit" class="btn btn-primary" value="Enviar">
+        <input type="reset" class="btn btn-danger" value="Borrar">
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
   
+          <div class="footer__menu">
+            <ul class="footer__menu--principal">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./pages/nosotros.html">Nosotros</a></li>
+              <li><a href="./pages/programas.html">Programas</a></li>
+              <li><a href="./pages/recursos-humanos.html">Recursos humanos</a></li>
+              <li><a href="./pages/nuevos-programas.html">Traenos tus propuestas</a></li>
+            </ul>
+          </div>
+
+
+          <div class="footer__abajo">Todos los derechos reservados - Radio-activa es una marca registrada de Loren Ipsum Studios Co.</div>
+  
+   
+        </footer>
+      </div>
+    </div>
+
+</body>
+</html>
