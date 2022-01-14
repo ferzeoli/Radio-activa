@@ -306,3 +306,98 @@
   border-radius: 1.5rem;
   padding: 1rem;
 }
+
+
+
+
+
+
+/* celulares */
+
+@media (max-width: 640px) {
+
+  .header{
+  text-align: center;
+  }
+  
+  .header__navbar--principal{
+  font-size: 0.7rem;
+  text-align: center;
+  word-spacing: 0.2rem;
+  }
+  
+  
+  .titulo__seccion{
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .publicidad{
+    display: none;
+  }
+
+  .texto__a{  
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 200;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .footer__menu--principal{
+  font-size: 0.8rem;
+  text-align: center;
+  word-spacing: 0.2rem;
+  } 
+  
+  iframe{
+  height:380px;
+  width: 120%;
+  text-align: center;
+  }
+
+  .noticias{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }  
+
+  .noticia01{
+    max-width: 26rem;
+  }
+  
+  .noticia02{
+    max-width: 26rem;
+  }
+  .noticia03{
+    max-width: 26rem;
+  }  
+ 
+.card-deck{
+  display: inline-block;
+}
+
+.contenedorprogramas{
+  display: inline-block;
+  min-width: 85rem;
+}
+
+.list-group{
+  display: grid;
+  padding-bottom: 2rem;
+}
+
+}
+
+
+
+
+    .footer__abajo{
+  font-size: 0.7rem;
+  }
+  
+
+
+
+
