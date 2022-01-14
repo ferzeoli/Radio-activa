@@ -264,3 +264,45 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+
+/*----------------- PROGRAMAS ----------------- */
+
+.contenedorprogramas{
+  position: relative;
+  margin: 3rem;
+  display: flex;
+}
+.col-4{
+  max-width: 33.33333333%;
+  grid-area: col-4;
+  padding-right: 3rem;
+}
+.col-8{
+  margin-left: 3rem;
+  max-width: 60%;
+  grid-area: col-8;
+  color: whitesmoke;
+}
+
+#contenedorprogramas{
+
+  display: grid;
+  grid-template-areas:
+  "col4 col8 col8";
+  margin: 2;
+}
+
+/* ----------------RRHH--------------- */
+
+.rrhh{
+  padding: 3rem;
+  color: whitesmoke;
+}
+
+.datos{
+  border-color: whitesmoke;
+  border-style: groove;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}

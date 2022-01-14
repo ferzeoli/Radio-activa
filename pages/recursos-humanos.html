@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajá con nosotros!</title>    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <title>Trabajá con nosotros</title>    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/estilos.css">
+
 </head>
 
 <body>
@@ -16,16 +18,64 @@
  
     <header class="header">
         
-        <nav class="logo"><a href="/index.html"><img class="logoradio" src="/img/RALogo.png" alt="Logo Radio"><img src="/img/RaLetras.png" class="letrasradio" alt="radioactiva"></a></nav>
+        <nav class="logo"><a href="/index.html"><img class="logoradio" src="/img/ralogo.png" alt="Logo Radio"><img src="/img/raletras.png" class="letrasradio" alt="radioactiva"></a></nav>
         
         <nav class="header__navbar">
           <ul class="header__navbar--principal">
-            <li><a href="../pages/nosotros.html">Nosotros</a></li>
-            <li><a href="../pages/programas.html">Programas</a></li>
-            <li><a href="../pages/recursos-humanos.html">Recursos humanos</a></li>
-            <li><a href="../pages/nuevos-programas.html">Traenos tus propuestas</a></li>
+            <li><a href="/pages/nosotros.html">Nosotros</a></li>
+            <li><a href="/pages/programas.html">Programas</a></li>
+            <li><a href="/pages/recursos-humanos.html">Recursos humanos</a></li>
+            <li><a href="/pages/nuevos-programas.html">Traenos tus propuestas</a></li>
           </ul>
-  
-        </nav>
-      </header>
-  
+      </nav>
+    </header>
+
+    <body>
+      <section class="rrhh">
+
+          <h1 class="titulo__seccion">Trabajá con nosotros!</h1>
+        
+          <h3 class=texto__a>En Radio Activa siempre estamos buscando nuevos talentos. Así que sentite llibre de dejarnos tu Cv y te contactaremos a la brevedad si encajás en alguna de nuestras búsquedas!</h3>
+     
+          <fieldset>
+            <div class="datos">
+
+              <label for="nombre">Tu nombre</label>
+
+              <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="ingresa tu nombre" required>
+            
+              
+              <label for="email">Email</label>
+              
+              <input type="email" class="form-control" name="email" id="email" placeholder="ingresa tu correo" required>
+      
+
+              <input type="submit" class="btn btn-light" value="Subir CV">
+              <input type="reset" class="btn btn-info" value="Enviar">
+      
+
+
+          </fieldset>
+
+      </section>
+
+      <footer class="footer">
+
+        <div class="footer__menu">
+          <ul class="footer__menu--principal">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/nosotros.html">Nosotros</a></li>
+            <li><a href="/pages/programas.html">Programas</a></li>
+            <li><a href="/pages/recursos-humanos.html">Recursos humanos</a></li>
+            <li><a href="/pages/nuevos-programas.html">Traenos tus propuestas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__abajo">Todos los derechos reservados - Radio-activa es una marca registrada de Loren Ipsum Studios Co.</div>
+
+      </footer>
+
+    </div>
+    </body>
+
+</html>
