@@ -398,6 +398,12 @@
   }
   
 
+.card-header{
+  padding: 3rem;
+}
 
-
+.imgnoticia:hover{
+  border-radius: 1rem;
+  border-color: #333555;
+}
 
